@@ -1,0 +1,1 @@
+start python "C:/Users/Alex/Google Drive/Ameryn/Automation/Scripts/discogs.py"

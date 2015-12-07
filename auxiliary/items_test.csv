@@ -1,0 +1,4 @@
+ID,Artist,Album,Media type,Xfer option,Xfer type,Copies,Date received,Customer notes,Private notes,Tracks,,,
+01234-00001,artist1,album1,LP,std,CD,1,,,,,,,
+01234-00002,artist2,album2,cass,del,mp3,2,,,,Track 1,Track 2,Track 3,Track 4
+01235-00001,artist1,album3,45,,CD,1,,I really like this 45,"Not enough, you don't",,,,

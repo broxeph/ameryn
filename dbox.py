@@ -122,7 +122,7 @@ def send_dbox_email(order_id, wc_client=None, dbox_client=None, smtp_server=None
     else:
         smtp_server = smtplib.SMTP('smtp-relay.gmail.com', 587)
         smtp_server.starttls()
-        smtp_server.login('alex@ameryn.com', 'calselptbnympllf')
+        smtp_server.login('alex@ameryn.com', 'xxxx')
         smtp_server.sendmail('orders@ameryn.com', [cust_email, 'test@ameryn.com'], message)
 
     # Mark no-return, local orders as Complete/Ready in WC
@@ -138,7 +138,7 @@ def send_all(order_ids, test=False):
     dbox_client = dropbox.client.DropboxClient(config.dbox_token)    
     smtp_server = smtplib.SMTP('smtp-relay.gmail.com', 587)
     smtp_server.starttls()
-    smtp_server.login('alex@ameryn.com', 'calselptbnympllf')
+    smtp_server.login('alex@ameryn.com', 'xxxx')
     discard_list = []
     for each_order in order_ids:
         if send_dbox_email(each_order, wc_client, dbox_client, smtp_server, test):
